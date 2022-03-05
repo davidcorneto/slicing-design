@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     plugin(function({ addUtilities }){
       const utilities = {
-        ".bg-web":{
+        ".bg-hero":{
           "background-image": "url(/bg-web.png)"
         }
       };
