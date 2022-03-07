@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import SectionProfile from "../components/ProfileSection";
+import SectionProjects from "../components/SectionProjects";
 import SectionSkills from "../components/SectionSkills";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <SectionProfile />
       <SectionSkills /> 
+      <SectionProjects />
     </>
   );
 }
