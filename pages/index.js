@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import SectionProfile from "../components/ProfileSection";
 import SectionContact from "../components/SectionContact";
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionSkills /> 
       <SectionProjects />
       <SectionContact />
+      <Footer /> 
     </>
   );
 }
