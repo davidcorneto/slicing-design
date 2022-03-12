@@ -1,3 +1,4 @@
+import Button from "./Button";
 import ContactItem from "./ContactItem";
 import Field from "./field";
 import SectionParagraph from "./SectionParagraph";
@@ -40,15 +41,31 @@ export default function SectionContact() {
                   <Field
                   label="Name"
                   name="name"
+                  type="text"
                   />
                 </div>  
                 <div className="w-6/12 px-4">
                   <Field
-                  label="Name"
+                  label="Email"
                   name="name"
+                  type="text"
                   />
-                </div> 
+                </div>
               </div>
+              <Field
+                  label="Subject"
+                  name="subject"
+                  type="text"
+                />
+                <Field
+                  label="Message"
+                  name="message"
+                  type="textarea"
+                  className="h-40"
+                />
+                <div className="text-right">
+                  <Button variant="black">SEND</Button>
+                </div>
             </form>
         </div>  
       </div>
